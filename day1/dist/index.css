@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul>li{
+    list-style: none;
+}
+#box{
+    margin: 50px auto;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    
+}
+#box #mulu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#box #mulu li{
+    line-height: 50px;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;height: 100%;
+}
+#mulu li:hover{
+    background: red;
+    color: white;
+    border-bottom: 0px;
+}
+#box #neirong{
+    width: 100%;
+    height: 250px;
+}
+#box #neirong li{
+    width: 100%;
+    height: 100%;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    line-height: 250px;
+}
